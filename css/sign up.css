@@ -1,0 +1,118 @@
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+body {
+    margin: 0px;
+}
+
+.col-md-12 {
+    width: 100%;
+    height: auto;
+}
+
+.header-section {
+    background: url('../images/background-img.jpg');
+    height: 630px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    padding-bottom: 20px;
+
+}
+.background {
+    background: #ffffffbf;
+    width: 460px;
+      padding: 20px;
+    
+}
+.active {
+    border-bottom: 2px solid #d48108;
+}
+
+
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.custom-row {
+    width: auto;
+}
+.flex-item {
+
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+.icon {
+    height: 60px;
+}
+
+.coop {
+    position: relative;
+    bottom: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+.logo {
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    height: 40px;
+    bottom: 12px;
+    position: relative;
+}
+.input {
+    border: none;
+    background: none;
+    width: 80%;
+    height: 42px;
+    font-size: 20px;
+    padding-left: 8px;
+}
+.email-icon {
+    font-size: 20px;
+    opacity: 0.6;
+}
+.lock-icon {
+    padding-right: 20px;
+}
+.login {
+    border: none;
+    background: #bf1e2d;
+    padding: 12px 152px 12px 152px;
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.sign-up {
+    border: none;
+    background: #bf1e2d;
+    padding: 12px 140px 12px 140px;
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}

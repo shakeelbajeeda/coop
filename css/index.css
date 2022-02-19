@@ -1,0 +1,14 @@
+.container-fluid {
+	width: 100%;
+	height: auto;
+}
+.container{
+	width: 100%;
+	height: auto;
+}
+.row {
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+.
